@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+  <html>
+  
+    <head>
+       <title>Belajar HTML 5</title>
+    </head>
+	
+  <body>
+    <h1>form-HTML 5</h1>
+     <form name="fmhs" method="post" action="proses.php">
+        <table width="50% border=0">
+          <tr>
+            <td width="30%">nim</td>
+            <td><input type="number" name="fnim"required></td>
+          </tr>
+          <tr>
+            <td>nama</td>
+            <td><input type="text" name="fnama"required></td>
+          </tr>
+          <tr>
+            <td>Tgl Lhr</td>
+            <td><input type="date" name="ftgllhr"required></td>
+          </tr>
+          <tr>
+            <td>Program studi</td>
+            <td><select>
+             <option value="">Pilih</option>
+             <option value="11">Teknik informatika</option>
+             <option value="12">sistem informasi</option>
+             <option value="22">manajemen</option></td>
+          </tr>
+          <tr>
+            <td>Bidang Minat</td>
+            <td>
+             <input type="checkbox"name="fminat01" value01><label >web programing</label>	
+             <input type="checkbox"name="fminat02" value02><label >mobile programing</label>	
+             <input type="checkbox"name="fminat03" value03><label >data science</label></td>
+          </tr>
+          <tr>
+            <td>Lamp.proposal</td>
+            <td><input type="file" name="fproposal" required></td>
+          </tr>
+          <tr>
+            <td><input type="submit"name ="fsubmit" required></td>
+            <td><input type="reset"name ="freset" required></td>
+          </tr>
+        </table>
+    </form>
+</body>
+</html>
+Footer
